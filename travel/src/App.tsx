@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import styles from './App.module.css';
 
+import {Footer, Header} from './components'
+
 function App() {
-  return (
-    <div className={styles.App}>
-      App ...
-    </div>
-  );
+    return (
+        <div className={styles.App}>
+            <Header/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
